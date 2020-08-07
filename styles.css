@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-size: 2em;
+    font-variant: small-caps;
+}
+body{
+    background-color:#dddddd ;
+}
+p{
+    color: Black;
+    font-family: cursive;
+}
+h2,h3{
+    color: #d54062;
+    text-align: center;
+}
+hr{
+    border-style: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 5px;
+    width: 10%;
+}

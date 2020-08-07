@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilguun's notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 align="center">Bilguun's notes</h1>
+    <hr>
+    <h2 align="center"> CSS </h2>
+    <p>CSS - Cascading Style Sheets</p>
+    <p>CSS is a tool for styling html. <br>
+    There are 3 kinds of css code: <br> 
+    <div class="flex-container">
+        <div >Inline </div>
+        <div >Internal</div>
+        <div >External</div>
+    </div> </p>
+    <br>
+    <hr>
+    <br>
+    <h3 align="center">Inline CSS code</h3>
+    <p>Inline css codes are written inside some tag.</p>
+    <p>For Example: < body style="background-color:blue;" > </p>
+    <p>Colors inside css can be: name of the color, #Hexadecimal code, RGB code, etc</p>
+    <br> <hr>
+    <h3 align="center">Internal CSS code</h3>
+    <p>For internal code you need another tag: <br> <%style%> <br>
+        selector{property:value;}  <br>  
+        h2{color: red;}
+        <br>
+    <%/style%></p>
+    <br>
+    <hr>
+    <h3 align="center">External CSS code</h3>
+    <p>For external code you need another file: Name.css</p>
+    <p>To link your new css file to you html file you need <%link rel="stylesheet" href="location"%> In your head tag.</p>
+    <br> <hr>
+    <h3 align="center">How to DEBUG your code</h3>
+    <h4>Step 1.</h4>
+    <p>Go to your page using Chrome</p>
+    <h4>Step 2.</h4>
+    <p>Open developer tools (Inspect) </p>
+    <h4>Step 3.</h4>
+    <p>If console gives error work on that, if not read our code and fint the problem</p>
+    <h4>Step4.</h4>
+    <p>Work for 5 minutes, relax for an hour. Peace V</p>
+    <hr> <br>
+    <h3 align="center">Priorities</h3>
+    <p>Priorities for css code: </p>
+    <p>1.Inline</p>
+    <p>2.Internal</p>
+    <p>3.External</p>
+    <br> <hr>
+    <h3>Id Vs Classes</h3>
+    <p>You can aim for specific tag in your css code using either id or classes</p>
+    <p><% img class="name" %> and in CSS code: .name{} </p>
+    <p><% p id="name" %> and in CSS code: #name{} </p>
+    <p>Tags can have multiple classes but only one id. And one particular id can only be used once in one page.</p>
+    <br> <hr>
+    <h3>FavIcons and DIVS in HTML</h3>
+    <p>Favicons are tiny icon for your web page in the browser tab</p>
+    <p>Divs are containers for some tags and manipulate them using one class or id</p>
+    <h3>The Box Model</h3>
+    <p>Every elements are just boxes in browser</p>
+    <p>There is a hierarchy for this: </p>
+    <p>1.Margin <br>
+       2.Border <br>
+       3.Padding <br>
+       4.Tag itself</p>
+       <img width="500px" src="https://miro.medium.com/max/733/1*pBPPK_ZIS2KTRCvGVs2Q1g.png" alt="">
+    <br> <hr>
+    <h3>Display propery</h3>
+    <p>There are 4 display properties:</p>
+    <p> 1.Block property - this property makes elements to block every other objects in it's line. It  means these element are alone in one line. <br>
+        2.Inline property - this property does not block other elements they stay in one line. But you can't  change width or height of an element <br>
+        3.Inline-block - this property has best of both previous two properties. They can stay in one line and still can change widht and height. <br>  
+        4.None - this makes your element disappear.
+    </p>
+</body>
+</html>

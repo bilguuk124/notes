@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bilguun's notes 2</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <h1 align="center"> Bilguun's notes</h1>
+  <hr size="3" noshade>
+  <h2 align="center">HTML</h2>
+  <br />
+  <h3 align="center"> What is HTML Boilerplate</h3>
+  <p>
+    Boilerplate is HTML's template, that can be reused multiple times.
+    It usually starts with document type: <strong>&lt!DOCTYPE html&gt</strong>.
+    Doctypes tell browser which version html the code is written in.
+
+  </p>
+  <p>
+    Tag <strong>head</strong> contains useful information about the page. It helps search engines to locate the web page
+    or
+    it can contain additional metadata via <strong>meta</strong> tag. <br>
+    <em>For Example: </em>
+    <ul>
+      <li>&ltmeta charset="UTF-8"&gt</li>
+      <li>&ltmeta name="description" content="THis is notes for html."&gt</li>
+    </ul>
+  </p>
+  <img height="200px" align="center" src="1.jpg" alt="HTML photo with head and body">
+  <p>And then comes <strong>body</strong> tag. <Strong>Body</Strong> tags contain every content of the webpage that's
+    being rendered right in front of you.
+  </p>
+  <hr>
+  <h2 align="center">How to structure HTML text</h2>
+  <p style="margin-left: 50px"><strong>Indents are required!</strong></p>
+  <p>Any tag's child must start from new indet! <br>
+    And sibling tags go in same indent!
+  </p>
+  <p>New tag <strong>&ltparagraph&gt</strong>. <br>
+    This tag is used for paragraphs and texts.
+  </p>
+  <p>also you can stylize text with these tags: <br>
+    <strong>&ltstrong&gt and &ltb&gt for bolding the text inside the open and close tags.</strong> <br>
+    <em>&ltem&gt and &lti&gt for emphasizing and italicizing the text </em>
+  </p>
+  <hr>
+  <h2 align="center">Lists in HTML</h2>
+  <p style="margin-left:50px">There are 2 types of lists: </p <p>
+  &ltul&gt for <strong>unordered list</strong>
+  and <stong>&ltul&gt <strong>for ordered list</strong> </stong>
+  </p>
+  <p>Inside lists you need another tag for each item in the list : <strong>&ltli&gt</strong> <br>
+    You can nest lists inside lists.
+  </p>
+  <hr>
+  <h2 align="center">Image in HTML</h2>
+  <p>To render image you need this tag: <br> <strong>&ltimg src="source of the image file" alt="explanation of image
+      when image is not available"&gt</strong></p>
+  <img height="300px" src="2.png" alt="Image of img tag">
+  <hr>
+  <h2 align="center"> Links and Anchor Tags</h2>
+  <p>To create a hyperlink text or file you need an anchor tag: <br>
+    <strong>&lta href="link or file"&gt text or input for link&lt/a&gt</strong>
+  </p>
+  <img src="anchor-tag.gif" alt="anchor tag">
+  <hr>
+  <h2 align="center">Tables in HTML</h2>
+  <p>To create a table use: <br>
+    &lttable&gt -Table <br>
+    &nbsp;&lttr&gt -Table row<br>
+    &nbsp;&nbsp;&lttd&gt -Table data/cell <br>
+    &nbsp;&lt/tr&gt -Table row end<br>
+    &lt/table&gt -Table end
+  </p>
+  <hr>
+  <br>
+  <h2 align="center">Forms</h2>
+  <p>form tag itself doesn't do anything
+    but tag that go inside it like <strong>&ltlabel&gt and &ltinput&gt</strong> they do good job.
+  </p>
+  <p>input have different types:</p>
+  <br>
+  <table border=1>
+    <thead>
+      <th>Input types</th>
+      <th>Examples</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td><label>Textbox:</label></td>
+        <td><input style="background-color: gray;" type="text" name="" id=""></td>
+      </tr>
+      <tr>
+        <td><label for="">Emails:</label></td>
+        <td><input type="email" name="" id=""> </td>
+      </tr>
+      <tr>
+        <td><label for="">Buttons:</label></td>
+        <td><input type="button" value="Button"> </td>
+      </tr>
+      <tr>
+        <td> <label for="">Checkboxes:</label> </td>
+        <td> <input type="checkbox" value="Button"> </td>
+      </tr>
+      <tr>
+        <td>
+          Color:
+        </td>
+        <td>
+          <input type="color" value="Button">
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Dates:</label>
+        </td>
+        <td>
+          <input type="date" value="Button">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Datetime-Local:</label>
+        </td>
+        <td>
+          <input type="datetime-local" value="Button">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">files:</label>
+        </td>
+        <td>
+          <input type="file" value="Button">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">hidden:</label>
+        </td>
+        <td>
+          <input type="hidden" value="Button">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Image:</label>
+        </td>
+        <td>
+          <input type="image">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Month:</label>
+        </td>
+        <td>
+          <input type="month" value="Button">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Number:</label>
+        </td>
+        <td>
+          <input type="number">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Password:</label>
+        </td>
+        <td>
+          <input type="password" value="Button">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Buttons:</label>
+
+        </td>
+        <td>
+          <input type="radio" value="Button">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Range:</label>
+        </td>
+        <td>
+          <input type="range" value="Button">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Reset:</label>
+        </td>
+        <td>
+          <input type="reset" value="Reset">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">search:</label>
+        </td>
+        <td>
+          <input type="search">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">submit:</label>
+        </td>
+        <td>
+          <input type="submit" value="Submit">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">tel:</label>
+        </td>
+        <td>
+          <input type="tel">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">times:</label>
+        </td>
+        <td>
+          <input type="time" value="Button">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">URL:</label>
+        </td>
+        <td>
+          <input type="url" value="https://www.google.mn">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Week:</label>
+        </td>
+        <td>
+          <input type="week">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <a href="Bilguun's notes 3.html"><button>Next Page</button></a>
+</body>
+
+</html>
